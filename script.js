@@ -6,7 +6,7 @@ function slideImage(a){
     slider(index);
 }
 
-slider(1);
+slider(0);
 
 function slider(a) {
     var x = document.getElementsByClassName('slides');
