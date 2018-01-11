@@ -933,6 +933,16 @@ Disturbed by a prophecy that he will be defeated by a "Super Saiyan God," Beerus
                     $('.tooltiptext-w', this).fadeOut(0);
                 },
             );
+
+            $('.pop').hover(
+                function() {
+                    $('.pop-text', this).fadeIn();
+                },
+
+                function() {
+                    $('.pop-text', this).fadeOut();
+                },
+            );
         });
     </script>
     <script src="script.js"></script>

@@ -678,10 +678,11 @@ header nav {
     background-color: black;
     position: relative;
     display: block;
+    transform:translateY(1000%);
 }
 
 .pop:hover .pop-text {
-    opacity: 1;
+    opacity: ;
 }
 
 .pop img {
@@ -696,8 +697,8 @@ header nav {
     background-color: rgba(0, 226, 255, 0.86);
     position: absolute;
     text-align: center;
-    opacity: 0;
-    transition: .05s ease;
+    display:none;
+    transition: .5s ease;
     padding: 20px;
     color: white;
 }
@@ -1159,6 +1160,10 @@ header nav {
     .pop {
         width: 47%;
     }
+    
+    .pop-desc{
+        margin-top:5px;
+    }
 
     .watching {
         width: 14.7%;
@@ -1283,6 +1288,15 @@ header nav {
 
     .news-board .sliders .slides:before {
         transform: translateX(0%);
+    }
+    
+    .pop{
+        width:100%;
+        height:450px;
+    }
+    
+    .pop .pop-info-box{
+        margin-top:20px;
     }
 }
 
@@ -1426,7 +1440,10 @@ header nav {
     }
 }
 
-@media (max-width:432px) {
+@media (max-width:375px) {
+    .watch{
+        width:100%;
+    }
     .watching {
-        width: 8.5vh;
+        width:25%
     }
