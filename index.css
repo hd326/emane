@@ -254,13 +254,12 @@ header nav {
 }
 
 #btn-1{
-    font-size:18px
+    font-size:18px;
 }
 
 #btn-2 {
-    float: right;
+    float: right;;
     position: relative;
-    top: 240px;
     font-size:18px;
 }
 
