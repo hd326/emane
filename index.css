@@ -241,23 +241,28 @@ header nav {
 
 .btn {
     color: white;
-    width: 100px;
-    height: 0px;
+    width: 50px;
+    height: 50px;
     font-size: 30px;
     position: absolute;
     z-index: 2;
     top: 240px;
     border-radius: 50px;
     border: none;
-    color: red;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #121212;
     width: ;
+}
+
+#btn-1{
+    font-size:18px
 }
 
 #btn-2 {
     float: right;
     position: relative;
     top: 240px;
+    font-size:18px;
 }
 
 /*
