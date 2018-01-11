@@ -245,13 +245,12 @@ header nav {
     height: 50px;
     font-size: 30px;
     position: absolute;
-    z-index: 2;
+    z-index: 5;
     top: 240px;
     border-radius: 50px;
     border: none;
     color: #ffffff;
     background-color: #121212;
-    width: ;
 }
 
 #btn-1{
