@@ -193,10 +193,6 @@ header nav {
 
 /* CONTENT */
 
-/* CONTENT */
-
-/* CONTENT */
-
 .container-news {
     width: 70%;
     height: 100%;
@@ -253,14 +249,15 @@ header nav {
     background-color: #121212;
 }
 
-#btn-1{
-    font-size:18px;
+#btn-1 {
+    font-size: 18px;
 }
 
 #btn-2 {
-    float: right;;
+    float: right;
+    ;
     position: relative;
-    font-size:18px;
+    font-size: 18px;
 }
 
 /*
@@ -585,16 +582,16 @@ header nav {
 }
 
 .simul .tooltiptext {
-    width:90%;
+    width: 90%;
     background-color: #00c3ff;
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin:0 0 0 0px;
+    margin: 0 0 0 0px;
     position: absolute;
     z-index: 1;
     bottom: 100%;
-    left:0%;
+    left: 0%;
     font-size: 11px;
     display: none;
 }
@@ -678,7 +675,7 @@ header nav {
     background-color: black;
     position: relative;
     display: block;
-    transform:translateY(1000%);
+    transform: translateY(1000%);
 }
 
 .pop:hover .pop-text {
@@ -697,7 +694,7 @@ header nav {
     background-color: rgba(0, 226, 255, 0.86);
     position: absolute;
     text-align: center;
-    display:none;
+    display: none;
     transition: .5s ease;
     padding: 20px;
     color: white;
@@ -705,6 +702,7 @@ header nav {
 
 .pop-desc {
     font-size: 12px;
+    margin-top: -20px;
 }
 
 .pop-info-box {
@@ -769,7 +767,7 @@ header nav {
     width: 10%;
     display: inline-block;
     transition: .5s ease;
-    transform: translateX(15%)
+    transform: translateX(15%);
 }
 
 .watching img {
@@ -824,8 +822,6 @@ header nav {
     text-align: center;
     position: absolute;
 }
-
-
 
 /* FOOTER */
 
@@ -1083,7 +1079,7 @@ header nav {
     .recent-order .recent-shows:nth-of-type(4) #tooltiptext-re {
         left: 10;
         top: 0;
-        margin-left: 50px
+        margin-left: 50px;
     }
 
     .recent-order .recent-shows:nth-of-type(4) #tooltiptext-re:after {
@@ -1099,22 +1095,13 @@ header nav {
 
     .recent-order .recent-shows:nth-of-type(5) #tooltiptext-re:after {
         margin-left: -10px;
-        top: 50.5%;
-        left: 0;
+        top: 0%;
+        left: 50.5%;
         border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
     }
 
 
-    .recent-order-2 .recent-shows:nth-of-type(5) #tooltiptext-re {
-        left: -71.5%;
-        top: 0;
-    }
 
-    .recent-order-2 .recent-shows:nth-of-type(5) #tooltiptext-re:after {
-        margin-left: 10px;
-        left: 96%;
-        border-color: transparent transparent transparent rgba(0, 0, 0, .6);
-    }
 
 
 
@@ -1141,6 +1128,30 @@ header nav {
         border-color: transparent transparent transparent rgba(0, 0, 0, .6);
     }
 
+    .recent-order-2 .recent-shows:nth-of-type(4) #tooltiptext-re {
+        left: 103%;
+        top: 0;
+    }
+
+    .recent-order-2 .recent-shows:nth-of-type(4) #tooltiptext-re:after {
+        margin-left: 10px;
+        left: -8%;
+        border-color: transparent rgba(0, 0, 0, .6) transparent transparent;
+    }
+
+    .recent-order-2 .recent-shows:nth-of-type(5) #tooltiptext-re {
+        left: -71.5%;
+        top: 0;
+    }
+
+    .recent-order-2 .recent-shows:nth-of-type(5) #tooltiptext-re:after {
+        margin-left: 10px;
+        left: 96%;
+        border-color: transparent transparent transparent rgba(0, 0, 0, .6);
+    }
+
+
+
     /* SIMULCAST */
     .simul {
         width: 23%;
@@ -1159,9 +1170,9 @@ header nav {
     .pop {
         width: 47%;
     }
-    
-    .pop-desc{
-        margin-top:5px;
+
+    .pop-desc {
+        margin-top: 5px;
     }
 
     .watching {
@@ -1288,14 +1299,14 @@ header nav {
     .news-board .sliders .slides:before {
         transform: translateX(0%);
     }
-    
-    .pop{
-        width:100%;
-        height:450px;
+
+    .pop {
+        width: 100%;
+        height: 450px;
     }
-    
-    .pop .pop-info-box{
-        margin-top:20px;
+
+    .pop .pop-info-box {
+        margin-top: 20px;
     }
 }
 
@@ -1440,9 +1451,9 @@ header nav {
 }
 
 @media (max-width:375px) {
-    .watch{
-        width:100%;
+    .watch {
+        width: 100%;
     }
     .watching {
-        width:25%
+        width: 25%
     }
