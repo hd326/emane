@@ -12,7 +12,7 @@ function slider(a) {
     var x = document.getElementsByClassName('slides');
     var i;
     for (i = 0; i < x.length; i++) {
-        if (a > 3 ){
+        if (a > x.length ){
             index = 1;
         };
         if (a < 1) {
