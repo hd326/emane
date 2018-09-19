@@ -1,12 +1,12 @@
 
 var index = 1;
 
+slider();
+
 function slideImage(a){
     index = index + a;
     slider(index);
 }
-
-slider();
 
 function slider(a) {
     var x = document.getElementsByClassName('slides');
